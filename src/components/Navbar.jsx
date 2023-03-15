@@ -10,7 +10,7 @@ const Navbar = ({size, setShow}) => {
             </span>
             <div className='cart' onClick={()=>setShow(false)}>
                 <span>
-                <i className=" fa-cart-plus"></i>
+                   <i className="fas fa-cart-plus"></i>
                 </span>
                 <span>
                     {size}
