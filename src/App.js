@@ -48,7 +48,7 @@ const App = () => {
 			show ? <Series handleClick={handleClick} /> : <Cart cart={cart} setCart={setCart} handleChange={handleChange} />
 		}
 		{
-			warning && <div className='warning'>Item is already added to your cart</div>
+			warning && <div className='warning'>Series is already added to your cart</div>
 		}
 	</React.Fragment>
   )
