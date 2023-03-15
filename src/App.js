@@ -3,7 +3,6 @@ import './App.css';
 import Cart from './components/Cart';
 import Navbar from './components/Navbar';
 import Series from './components/Series';
-// import list from './data';
 import "../src/components/series.css";
 
 
